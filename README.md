@@ -3,19 +3,10 @@
 ------------------------------------------------------------------------------------------------------------------------------
 #### vps一键脚本：
 ```
-bash <(wget -qO- https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh 2> /dev/null)
-```
-或者
-```
-bash <(curl -Ls https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Argo160/CFwarp/raw/main/CFwarp.sh)
 ```
 ----------------------------------------------------------------------------------------------------------------------
 
-### 多平台优选WARP对端IP + 无限生成WARP-Wireguard配置 脚本
-```
-curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh && chmod +x endip.sh && ./endip.sh
-```
--------------------------------------------------------------------------------------------------------------------------
 
 #### 感谢WGCF源项目代码地址：https://github.com/ViRb3/wgcf
 #### 感谢CoiaPrant，WARP-GO源项目代码地址：https://gitlab.com/ProjectWARP/warp-go
